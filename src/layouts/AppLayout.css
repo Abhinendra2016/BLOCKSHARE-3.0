@@ -1,0 +1,38 @@
+
+.app-footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out; 
+  }
+  
+  .app-footer:hover {
+    background-color: #555;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin: 0;
+    font-size: 16px; 
+  }
+  
+  .heart-icon {
+    color: red; 
+    font-size: 24px; 
+    margin: 8px 0;
+    border: 2px solid red; 
+    border-radius: 50%; 
+    padding: 5px; 
+  }
+  
+  
+  .heart-icon:hover {
+    transform: scale(1.2);
+  }
+  
