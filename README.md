@@ -1,6 +1,6 @@
 # BLOCKSHARE
 
-<img src='./src/assets/logo/logo-color.png' width='550px' alt='BLOCKSHARElogo' >
+<img src='https://story.madfish.solutions/wp-content/uploads/2022/08/Decenrtalized-filesharing-structure-1024x576.png' width='550px' alt='BLOCKSHARElogo' >
 
 **BLOCKSHARE** is decentralized application for creating and storing posts.
 
