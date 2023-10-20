@@ -37,7 +37,7 @@ Developed with
     }
   ```
  
-- [IPFS Query](https://github.com/h1xten/decentralized-thoughts/blob/ae33dcb8f003da784f564b1c7103134c2afe44c3/src/store/ipfsApi.js#L3)
+- [IPFS Query]
   ```
   export const ipfsApi = createApi({
     reducerPath: 'ipfsApi',
@@ -53,7 +53,6 @@ Developed with
 
 ## Data for the test
   Sometimes saving a post to storage can take longer than expected. Therefore, after creating a post, it is not always possible to immediately receive and display it. I included here the CIDS of the posts I created earlier to test the application:
-- bafybeigplksdcjn4r3fjstyryqom3f24ertgmtlaqrohcyqob2dyip74qq
 - bafybeigeuxkmos74rslxmnnt7gvzyzbfxasr4w3achmf5c2zzyrtmzz6te
 - bafybeihqsz362op54uvy6enammf42vzphkrh66fqxykvrobz3eufws5ovq
 
