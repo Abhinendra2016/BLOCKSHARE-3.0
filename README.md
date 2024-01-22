@@ -35,10 +35,10 @@ Developed with
         setCID(cid)
         setIsLoading(false)
     }
-  ```
+
  
 - [IPFS Query]
-  ```
+
   export const ipfsApi = createApi({
     reducerPath: 'ipfsApi',
     baseQuery: fetchBaseQuery({baseUrl: 'https://ipfs.io/ipfs/'}),
@@ -48,16 +48,71 @@ Developed with
         })
     })
   });
-  ```
+Decentralization with Web3.Storage and IPFS
+The third and final phase involved transforming the project into a decentralized file-sharing system:
+**Built with Passion, Powered by Technology:**
+- React.js: Crafted a fluid and user-friendly interface.
+- MUI (Material-UI): Added a touch of elegance with beautiful UI components.
+- Redux Toolkit Query: Ensured seamless data fetching and management.
+- IPFS (InterPlanetary File System): Decentralized storage for a tamper-proof future.
+- Web3.Storage: Blockchain-powered security for your valuable files.
+
+By leveraging Web3.Storage, we achieved a decentralized architecture that enhances security and reliability in file storage.
+
+**Repository Link:** [https://github.com/Abhinendra2016/BLOCKSHARE-3.0](https://github.com/Abhinendra2016/BLOCKSHARE-3.0)
+
+# Contributors
+
+We want to express our gratitude to the following individuals who have contributed to the success of Bloch Share in various ways:
+
+# Project Contributors
+
+We extend our sincere appreciation to the following individuals who have contributed significantly to the development and success of Bloch Share:
+
+- **Abhinendra Pratap SINGH**
+  - Full-stack developer: Led the implementation of both front-end and back-end components, and managed the deployment phase.
+
+- **Subhag Prabhune**
+  - UI/UX Designer: Brought creativity and expertise to enhance the user interface and experience.
+
+- **Krupansh Desai**
+  - Web3Storage Researcher: Conducted in-depth research and contributed insights for the integration of Web3Storage.
+
+Thank you to each of these contributors for their valuable and dedicated efforts in making Bloch Share a success!
+ 
+
+Thank you to all our contributors for their involvement and support!
+
+## How to Use
+Follow these steps to set up and run the Bloch Share project on your local machine:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Abhinendra2016/BLOCKSHARE-3.0
+
+   ## How to Use
+
+2. **Install Dependencies:**
+    ```bash
+    cd BlockShare
+    npm install
+    ```
+
+3. **Run the Application:**
+    ```bash
+    npm start
+    ```
+
+    The application will be accessible at [http://localhost:3000](http://localhost:3000).
+
+## Contributing
+
+We welcome contributions! To contribute to Bloch Share, follow these steps:
+
+1. **Fork the repository.**
+2. **Create a new branch for your feature or bug fix.**
+3. **Make your changes and submit a pull request.**
 
 
-## Data for the test
-  Sometimes saving a post to storage can take longer than expected. Therefore, after creating a post, it is not always possible to immediately receive and display it. I included here the CIDS of the posts I created earlier to test the application:
-- bafybeigeuxkmos74rslxmnnt7gvzyzbfxasr4w3achmf5c2zzyrtmzz6te
-- bafybeihqsz362op54uvy6enammf42vzphkrh66fqxykvrobz3eufws5ovq
-
-## Future Updates
-- Ability to save files like user avatars, media files in post content.
-- Smart contract for donations for post authors if the author specified the address.
 
 
